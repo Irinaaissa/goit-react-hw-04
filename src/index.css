@@ -1,4 +1,4 @@
-:root {
+/* :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
@@ -65,4 +65,65 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+} */
+:root {
+  --active-menu-color: #ff0000;
+  --primary-color: #f6f6f6;
+  --secondary-color: #1b1b1b;
+  --section-gray-color: #7e847f;
+  --accent-color: #7e847f;
+
+  --section-bgr-color: #e8e8e8;
+  --labels-color: #ffffff;
+
+  --btn-accent-color: #5f6560;
+
+  --status-online-color: #1cd71c;
+  --status-offline-color: #ff0000;
+
+  --darkened-color: #000000;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+p:last-child {
+  margin-bottom: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+a {
+  color: currentColor;
+  text-decoration: none;
+  font-style: normal;
+}
+
+button {
+  cursor: pointer;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+body {
+  font-family: 'DM Sans', sans-serif;
+  color: black;
+  background-color: white;
+  min-width: 320px;
+  min-height: 100vh;
 }
