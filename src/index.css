@@ -80,7 +80,7 @@ button:focus-visible {
 
   --status-online-color: #1cd71c;
   --status-offline-color: #ff0000;
-
+--background-color-modal:#808080;
   --darkened-color: #000000;
 }
 
@@ -122,8 +122,20 @@ img {
 
 body {
   font-family: 'DM Sans', sans-serif;
-  color: black;
-  background-color: white;
+  color: var(--secondary-color);
+  background-color: var(--primary-color);
   min-width: 320px;
   min-height: 100vh;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }

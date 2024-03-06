@@ -19,3 +19,17 @@
   .bth:focus {
     background-color: var(--btn-accent-color);
   }
+  @media screen and (min-width: 768px) {
+    .btn {
+      padding-right: 16px;
+      padding-left: 16px;
+      font-size: 20px;
+    }
+  }
+  
+  @media screen and (min-width: 1440px) {
+    .btn {
+      padding-right: 20px;
+      padding-left: 20px;
+    }
+  }

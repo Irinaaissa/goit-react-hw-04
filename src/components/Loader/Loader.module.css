@@ -1,4 +1,4 @@
 .loader {
-    width: 120px;
-    color: red;
-  }
+  width: 120px;
+  color: var(--accent-color);
+}
